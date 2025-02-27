@@ -9,7 +9,7 @@ from langchain_community.document_loaders import AsyncChromiumLoader
 from langchain_community.document_transformers import BeautifulSoupTransformer
 
 # Get API key from environment or use the provided one
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "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")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "YOUR_GROQ_API_KEY")
 
 # Set a default User-Agent
 os.environ['USER_AGENT'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
