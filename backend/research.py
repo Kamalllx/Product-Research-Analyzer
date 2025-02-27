@@ -11,7 +11,7 @@ import asyncio
 from io import BytesIO
 
 # Get API key from environment or use the provided one
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "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")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "YOUR_GROQ_API_KEY")
 
 # Initialize the Groq LLM
 llm = ChatGroq(
