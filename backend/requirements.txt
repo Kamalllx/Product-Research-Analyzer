@@ -1,0 +1,12 @@
+fastapi==0.110.0
+uvicorn==0.27.1
+pydantic==2.6.1
+arxiv==2.1.0
+langchain==0.1.9
+langchain-groq==0.1.5
+langchain-text-splitters==0.0.1
+langchain-community==0.0.24
+scholarly==1.7.0
+playwright==1.41.2
+PyPDF2==3.0.1
+python-multipart==0.0.9
